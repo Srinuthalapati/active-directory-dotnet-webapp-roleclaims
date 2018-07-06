@@ -1,17 +1,9 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
-using System.Web;
 using System.Web.Mvc;
 
 //The following libraries were added to this sample.
-using WebApp_RoleClaims_DotNet.Utils;
 using System.Security.Claims;
-using Microsoft.Azure.ActiveDirectory.GraphClient;
-using System.Net;
-using System.Linq.Expressions;
-using Microsoft.Azure.ActiveDirectory.GraphClient.Extensions;
-using System.Threading.Tasks;
 
 
 //The following libraries were defined and added to this sample.
@@ -20,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace WebApp_RoleClaims_DotNet.Controllers
 {
-    
+
     public class HomeController : Controller
     {
         /// <summary>
