@@ -1,4 +1,4 @@
-﻿/* using Microsoft.VisualStudio.TestTools.UITesting;
+﻿/*using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UITesting.HtmlControls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
@@ -169,5 +169,4 @@ namespace ScenarioTest
         }
         private TestContext testContextInstance;
     }
-}
-*/
+}*/
