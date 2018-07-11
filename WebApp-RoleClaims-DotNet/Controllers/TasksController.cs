@@ -16,7 +16,7 @@ namespace WebApp_RoleClaims_DotNet.Controllers
         /// <returns>The Tasks Page.</returns>
         [HttpGet]
         [Authorize(Roles = "Admin, Observer, Writer, Approver")]
-        public ActionResult Index()
+        public ActionResult Tasks()
         {
             ViewBag.Message = "Tasks";
             ViewData["tasks"] = TasksDbHelper.GetAllTasks();
