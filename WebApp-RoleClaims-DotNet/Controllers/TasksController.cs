@@ -66,7 +66,7 @@ namespace WebApp_RoleClaims_DotNet.Controllers
                     }
                 }
             }
-            return RedirectToAction("Index", "Tasks");
+            return RedirectToAction("Tasks", "Tasks");
         }
     }
 }
